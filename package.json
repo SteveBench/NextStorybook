@@ -1,0 +1,35 @@
+{
+  "name": "swteststorybooktester",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "storybook": "start-storybook -s ./public -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@storybook/addon-a11y": "^6.3.7",
+    "@storybook/addon-backgrounds": "^6.3.7",
+    "@storybook/addon-controls": "^6.3.7",
+    "@storybook/addon-docs": "^6.3.7",
+    "@storybook/addon-toolbars": "^6.3.7",
+    "@storybook/addon-viewport": "^6.3.7",
+    "next": "10.0.7",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@storybook/addon-actions": "^6.1.20",
+    "@storybook/addon-essentials": "^6.1.20",
+    "@storybook/addon-links": "^6.3.7",
+    "@storybook/react": "^6.1.20",
+    "@tailwindcss/postcss7-compat": "^2.0.3",
+    "autoprefixer": "^9",
+    "babel-loader": "^8.2.2",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  }
+}
